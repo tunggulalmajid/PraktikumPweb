@@ -1,0 +1,80 @@
+/* Tag HTML */
+body {
+  color: black;
+  background-color: midnightblue;
+}
+
+p {
+  color: red;
+}
+
+/* CLass */
+.paragraf-hitam {
+  color: white;
+}
+
+/* ID */
+#kotak {
+  background-color: black;
+  width: 100px;
+  height: 100px;
+}
+
+#kotak:hover {
+  background-color: aqua;
+  width: 1000px;
+  height: 100px;
+}
+
+/* keseluruhan tag */
+* {
+}
+
+/* senua a yang ada di dalam nav */
+nav a .kotak #kotak {
+}
+
+.kotak {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  /* margin-top: 100px; */
+  margin-bottom: 100px;
+  border: 15px solid white;
+  border-radius: 100px;
+  padding: 10px;
+}
+
+#kotak {
+  background-color: green;
+}
+
+/* ul p {
+  color: red;
+} */
+
+ul > li > p {
+  color: blue;
+}
+
+ul > li > p {
+  color: black;
+}
+
+.list-merah {
+  color: red;
+  list-style: square;
+}
+
+.list-biru {
+  color: blue;
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
